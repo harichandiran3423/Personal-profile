@@ -1,7 +1,7 @@
 import todo from "../assets/ProjectImg/todo.png";
 import ecommerce from "../assets/ProjectImg/myStoreWeb.png";
 import iot from "../assets/ProjectImg/4bit-RCA.png";
-import verilog from "../assets/ProjectImg/BCD Adder.png";    
+import verilog from "../assets/ProjectImg/BCD_Adder.png";    
 
 export default function Projects() {
     const projects = [
