@@ -73,9 +73,7 @@ export default function About() {
 
                     {/* Education & Experience Timeline */}
                     <div className="space-y-6">
-                        <h3 className="text-2xl font-semibold text-gray-900 mb-6">
-                            Education & Experience
-                        </h3>
+                        <h3 className="text-2xl uppercase font-semibold text-gray-900 mb-6">Education</h3>
 
                         {/* Timeline */}
                         <div className="space-y-6">
@@ -83,13 +81,23 @@ export default function About() {
                             <div className="relative pl-8 border-l-2 border-blue-600">
                                 <div className="absolute -left-2 top-0 w-4 h-4 bg-blue-600 rounded-full"></div>
                                 <div className="mb-1">
-                                    <span className="text-sm font-medium text-gray-600">2021 - 2025</span>
+                                    <span className="text-sm font-medium text-blue-600">2021 - 2025</span>
                                 </div>
                                 <h4 className="font-semibold text-gray-900">B.E. Electronics & Communication</h4>
                                 <p className="text-gray-600 text-sm">A.K.T Memorial College of Engineering & Technology</p>
                                 <p className="text-gray-500 text-sm mt-1">CGPA: 7.8/10</p>
                             </div>
-
+                            <h3 className="text-2xl uppercase font-semibold text-gray-900 mb-6">Experience & Training</h3>
+                            {/* Software engineer Training */}
+                            <div className="relative pl-8 border-l-2 border-blue-400">
+                               <div className="absolute -left-2 top-0 w-4 h-4 bg-blue-600 rounded-full"></div>
+                                <div className="mb-1">
+                                    <span className="text-sm font-medium text-gray-600">Feb 2026 - Present</span>
+                                </div>
+                                <h4 className="font-semibold text-gray-900">Software Engineer intern</h4>
+                                <p className="text-gray-600 text-sm">Mayilveera Tech Solution, Chennai</p>
+                                <p className="text-gray-500 text-sm mt-1">Developed web applications using both frontend and backend technologies</p>
+                            </div>
                             {/* Full Stack Training */}
                             <div className="relative pl-8 border-l-2 border-blue-400">
                                <div className="absolute -left-2 top-0 w-4 h-4 bg-blue-600 rounded-full"></div>
@@ -103,7 +111,7 @@ export default function About() {
 
                             {/* Internship 1 */}
                             <div className="relative pl-8 border-l-2 border-blue-400">
-                               <div className="absolute -left-2 top-0 w-4 h-4 bg-blue-600 rounded-full"></div>
+                               <div className="absolute -left-2 top-0 w-4 h-4 rounded-full"></div>
                                 <div className="mb-1">
                                     <span className="text-sm font-medium text-gray-600">October 2024</span>
                                 </div>
