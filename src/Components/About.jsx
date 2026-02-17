@@ -14,42 +14,41 @@ export default function About() {
                     {/* About Text */}
                     <div className="space-y-6">
                         <h3 className="text-2xl font-semibold text-gray-900">
-                            Full Stack Developer with a Strong Electronics Background
+                            BIM Architect & Structural Designer
                         </h3>
                         <p className="text-gray-600 leading-relaxed">
-                            I'm a motivated Electronics and Communication Engineering graduate from A.K.T Memorial 
-                            College of Engineering & Technology with a CGPA of 7.8. My journey combines the best 
-                            of both worlds - a solid foundation in electronics and digital systems, paired with 
-                            modern web development expertise.
+                            I am an accomplished BIM Architect and Structural Designer with over 2 years of experience 
+                            delivering complex architectural and structural solutions across commercial, residential, 
+                            and infrastructure sectors. I hold a Bachelor of Engineering in Civil Engineering 
+                            from the Government College of Engineering, Bodinayakkanur.
                         </p>
                         <p className="text-gray-600 leading-relaxed">
-                            Trained in full-stack development at FITA Academy, I specialize in building scalable 
-                            web applications using React, Spring Boot, and MySQL. My experience spans from creating 
-                            responsive frontends to developing robust backend APIs, with hands-on projects in 
-                            e-commerce platforms and IoT systems.
+                            My expertise lies in Building Information Modeling (BIM) using Revit, Navisworks, and AutoCAD. 
+                            I am highly skilled in clash detection, 4D/5D simulations, and model-based quantity take-offs, 
+                            which drive cost-effective and time-saving project execution.
                         </p>
                         <p className="text-gray-600 leading-relaxed">
-                            I'm a quick learner with strong problem-solving abilities and a collaborative mindset. 
-                            Whether it's debugging complex code or integrating hardware with software, I thrive on 
-                            technical challenges and continuous learning.
+                            I have a proven ability to lead multidisciplinary teams through all project phases—from 
+                            conceptual design to construction documentation—ensuring high levels of accuracy, 
+                            compliance, and efficiency.
                         </p>
 
-                        {/* Achievements */}
+                        {/* Professional Highlights */}
                         <div className="bg-gradient-to-br from-blue-50 to-indigo-50 p-6 rounded-xl border border-blue-100">
                             <h4 className="font-semibold text-gray-900 mb-4 flex items-center gap-2">
                                 <svg className="w-6 h-6 text-blue-600" fill="currentColor" viewBox="0 0 20 20">
                                     <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
                                 </svg>
-                                Key Achievements
+                                Core Expertise
                             </h4>
                             <ul className="space-y-2 text-gray-700">
                                 <li className="flex items-start gap-2">
                                     <span className="text-blue-600 mt-1">•</span>
-                                    <span>🏆 First Prize in Debugit Hackathon (Edveon Technology - Naan Mudhalvan)</span>
+                                    <span>High-Rise Coordination & Multi-discipline Integration</span>
                                 </li>
                                 <li className="flex items-start gap-2">
                                     <span className="text-blue-600 mt-1">•</span>
-                                    <span>🎖️ Best Project Model Award in college-level innovation contest</span>
+                                    <span>LOD 300-500 Standards & BIM Execution Plans (BEPs)</span>
                                 </li>
                             </ul>
                         </div>
@@ -57,16 +56,16 @@ export default function About() {
                         {/* Stats */}
                         <div className="grid grid-cols-3 gap-6 pt-4">
                             <div className="text-center">
-                                <p className="text-3xl font-bold text-blue-600">7.8</p>
+                                <p className="text-3xl font-bold text-blue-600">7.66</p>
                                 <p className="text-gray-600 text-sm">CGPA</p>
                             </div>
                             <div className="text-center">
-                                <p className="text-3xl font-bold text-blue-600">4+</p>
-                                <p className="text-gray-600 text-sm">Projects</p>
+                                <p className="text-3xl font-bold text-blue-600">8+</p>
+                                <p className="text-gray-600 text-sm">Key Projects</p>
                             </div>
                             <div className="text-center">
-                                <p className="text-3xl font-bold text-blue-600">3</p>
-                                <p className="text-gray-600 text-sm">Internships</p>
+                                <p className="text-3xl font-bold text-blue-600">2+</p>
+                                <p className="text-gray-600 text-sm">Years Exp</p>
                             </div>
                         </div>
                     </div>
@@ -74,66 +73,55 @@ export default function About() {
                     {/* Education & Experience Timeline */}
                     <div className="space-y-6">
                         <h3 className="text-2xl uppercase font-semibold text-gray-900 mb-6">Education</h3>
-
-                        {/* Timeline */}
                         <div className="space-y-6">
                             {/* Education */}
                             <div className="relative pl-8 border-l-2 border-blue-600">
                                 <div className="absolute -left-2 top-0 w-4 h-4 bg-blue-600 rounded-full"></div>
                                 <div className="mb-1">
-                                    <span className="text-sm font-medium text-blue-600">2021 - 2025</span>
+                                    <span className="text-sm font-medium text-blue-600">2020 - 2024</span>
                                 </div>
-                                <h4 className="font-semibold text-gray-900">B.E. Electronics & Communication</h4>
-                                <p className="text-gray-600 text-sm">A.K.T Memorial College of Engineering & Technology</p>
-                                <p className="text-gray-500 text-sm mt-1">CGPA: 7.8/10</p>
-                            </div>
-                            <h3 className="text-2xl uppercase font-semibold text-gray-900 mb-6">Experience & Training</h3>
-                            {/* Software engineer Training */}
-                            <div className="relative pl-8 border-l-2 border-blue-400">
-                               <div className="absolute -left-2 top-0 w-4 h-4 bg-blue-600 rounded-full"></div>
-                                <div className="mb-1">
-                                    <span className="text-sm font-medium text-gray-600">Feb 2026 - Present</span>
-                                </div>
-                                <h4 className="font-semibold text-gray-900">Software Engineer intern</h4>
-                                <p className="text-gray-600 text-sm">Mayilveera Tech Solution, Chennai</p>
-                                <p className="text-gray-500 text-sm mt-1">Developed web applications using both frontend and backend technologies</p>
-                            </div>
-                            {/* Full Stack Training */}
-                            <div className="relative pl-8 border-l-2 border-blue-400">
-                               <div className="absolute -left-2 top-0 w-4 h-4 bg-blue-600 rounded-full"></div>
-                                <div className="mb-1">
-                                    <span className="text-sm font-medium text-gray-600">August 2025</span>
-                                </div>
-                                <h4 className="font-semibold text-gray-900">Full Stack Development</h4>
-                                <p className="text-gray-600 text-sm">FITA Academy, Chennai</p>
-                                <p className="text-gray-500 text-sm mt-1">React.js, Spring Boot, MySQL</p>
+                                <h4 className="font-semibold text-gray-900">B.E. Civil Engineering</h4>
+                                <p className="text-gray-600 text-sm">Government College of Engineering, Bodinayakkanur</p>
+                                <p className="text-gray-500 text-sm mt-1">CGPA: 7.66/10</p>
                             </div>
 
-                            {/* Internship 1 */}
+                            <h3 className="text-2xl uppercase font-semibold text-gray-900 mb-6">Experience</h3>
+                            
+                            {/* Senior BIM Modeler */}
                             <div className="relative pl-8 border-l-2 border-blue-400">
-                               <div className="absolute -left-2 top-0 w-4 h-4 rounded-full"></div>
+                                <div className="absolute -left-2 top-0 w-4 h-4 bg-blue-600 rounded-full"></div>
                                 <div className="mb-1">
-                                    <span className="text-sm font-medium text-gray-600">October 2024</span>
+                                    <span className="text-sm font-medium text-gray-600">July 2025 - Present</span>
                                 </div>
-                                <h4 className="font-semibold text-gray-900">Intern - Web Development</h4>
-                                <p className="text-gray-600 text-sm">Jyotsna and Kevin Technologies</p>
-                                <p className="text-gray-500 text-sm mt-1">Responsive Web Apps, HTML5, CSS3, Js</p>
+                                <h4 className="font-semibold text-gray-900">Senior BIM Modeler</h4>
+                                <p className="text-gray-600 text-sm">HSS Integrated Pvt Ltd, Chennai</p>
+                                <p className="text-gray-500 text-sm mt-1">Leading projects like BIAL Terminal 2 and JIAL Terminal 2 extensions.</p>
                             </div>
 
-                            {/* Internship 2 */}
+                            {/* Junior BIM Modeler */}
                             <div className="relative pl-8 border-l-2 border-blue-400">
-                               <div className="absolute -left-2 top-0 w-4 h-4 bg-blue-600 rounded-full"></div>
+                                <div className="absolute -left-2 top-0 w-4 h-4 bg-blue-600 rounded-full"></div>
                                 <div className="mb-1">
-                                    <span className="text-sm font-medium text-gray-600">July 2023</span>
+                                    <span className="text-sm font-medium text-gray-600">July 2024 - June 2025</span>
                                 </div>
-                                <h4 className="font-semibold text-gray-900">Intern - IoT Development</h4>
-                                <p className="text-gray-600 text-sm">CodeBind Technologies, Chennai</p>
-                                <p className="text-gray-500 text-sm mt-1">IoT Systems, Real-time Data</p>
+                                <h4 className="font-semibold text-gray-900">Junior BIM Modeler</h4>
+                                <p className="text-gray-600 text-sm">HSS Integrated Pvt Ltd, Chennai</p>
+                                <p className="text-gray-500 text-sm mt-1">Worked on Embassy Manyata Business Park and Sattva Song Bird.</p>
+                            </div>
+
+                            {/* Internships */}
+                            <div className="relative pl-8 border-l-2 border-blue-400">
+                                <div className="absolute -left-2 top-0 w-4 h-4 bg-gray-400 rounded-full"></div>
+                                <div className="mb-1">
+                                    <span className="text-sm font-medium text-gray-600">June 2024 - July 2024</span>
+                                </div>
+                                <h4 className="font-semibold text-gray-900">BIM Intern</h4>
+                                <p className="text-gray-600 text-sm">HSS Integrated / Max Property Pvt Ltd</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-    )
+    );
 }

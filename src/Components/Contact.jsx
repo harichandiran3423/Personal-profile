@@ -12,7 +12,7 @@ export default function Contact() {
         const whatsappMessage = `*Name:* ${name}%0A*Email:* ${email}%0A*Subject:* ${subject}%0A%0A*Message:*%0A${message}`;
         
         // WhatsApp URL
-        const whatsappURL = `https://wa.me/916380010292?text=${whatsappMessage}`;
+        const whatsappURL = `https://wa.me/7397506234?text=${whatsappMessage}`;
         
         // Open WhatsApp in new tab
         window.open(whatsappURL, '_blank');
@@ -53,8 +53,8 @@ export default function Contact() {
                                 </div>
                                 <div>
                                     <h4 className="font-semibold text-gray-900 mb-1 text-start">Email</h4>
-                                    <a href="mailto:kalaimani.lakshmanan14@gmail.com" className="text-blue-600 hover:text-blue-700">
-                                        kalaimani.lakshmanan14@gmail.com
+                                    <a href="mailto:haribimengineer@gmail.com" className="text-blue-600 hover:text-blue-700">
+                                        haribimengineer@gmail.com
                                     </a>
                                 </div>
                             </div>
@@ -67,8 +67,8 @@ export default function Contact() {
                                 </div>
                                 <div>
                                     <h4 className="font-semibold text-gray-900 mb-1 text-start">Phone / WhatsApp</h4>
-                                    <a href="https://wa.me/916380010292" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700">
-                                        +91 6380010292
+                                    <a href="https://wa.me/917397506234" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700">
+                                        +91 7397506234
                                     </a>
                                 </div>
                             </div>
@@ -94,8 +94,9 @@ export default function Contact() {
                                 </div>
                                 <div>
                                     <h4 className="font-semibold text-gray-900 mb-1 text-start">GitHub</h4>
-                                    <a href="https://github.com/Kalaimani14" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700">
-                                        github.com/Kalaimani14
+                                    <a href="https://github.com/harichandiran3423" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700">
+                                        
+harichandiran3423
                                     </a>
                                 </div>
                             </div>
@@ -106,7 +107,7 @@ export default function Contact() {
                             <h4 className="font-semibold text-gray-900 mb-4">Connect With Me</h4>
                             <div className="flex gap-4 justify-center">
                                 <a 
-                                    href="https://github.com/Kalaimani14" 
+                                    href="https://github.com/harichandiran3423" 
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="w-12 h-12 bg-white rounded-full flex items-center justify-center border-2 border-gray-200 hover:border-blue-600 hover:text-blue-600 transition-colors shadow-sm"
@@ -117,7 +118,7 @@ export default function Contact() {
                                     </svg>
                                 </a>
                                 <a 
-                                    href="https://www.linkedin.com/in/kalaimani-l-60860536b" 
+                                    href="https://www.linkedin.com/in/harichandiran-r-a23a3027" 
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="w-12 h-12 bg-white rounded-full flex items-center justify-center border-2 border-gray-200 hover:border-blue-600 hover:text-blue-600 transition-colors shadow-sm"
@@ -128,7 +129,7 @@ export default function Contact() {
                                     </svg>
                                 </a>
                                 <a 
-                                    href="https://wa.me/916380010292"
+                                    href="https://wa.me/917397506234"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="w-12 h-12 bg-white rounded-full flex items-center justify-center border-2 border-gray-200 hover:border-green-600 hover:text-green-600 transition-colors shadow-sm"
@@ -139,7 +140,7 @@ export default function Contact() {
                                     </svg>
                                 </a>
                                 <a 
-                                    href="mailto:kalaimani.lakshmanan14@gmail.com"
+                                    href="mailto:haribimengineer@gmail.com"
                                     className="w-12 h-12 bg-white rounded-full flex items-center justify-center border-2 border-gray-200 hover:border-blue-600 hover:text-blue-600 transition-colors shadow-sm"
                                     aria-label="Email"
                                 >

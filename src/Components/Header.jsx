@@ -1,14 +1,19 @@
 export default function Header() {
+    // Define the new profile name from the resume (Harichandiran R)
+    const profileName = "HARICHANDIRAN R"; 
+    // Define the path to the new resume PDF file (assuming it is in the public folder or similar)
+    const resumePdfPath = "/HARICHANDIRAN_R_Resume.pdf";
+
     return (
         <header className="bg-white shadow-sm sticky top-0 z-50 border-b border-gray-100">
             <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-between items-center h-16">
-                    {/* Logo */}
+                    {/* Logo (Updated Name) */}
                     <a 
                         href="#home" 
                         className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent hover:from-blue-700 hover:to-indigo-700 transition-all"
                     >
-                        Kalaimani L
+                        {profileName}
                     </a>
                     
                     {/* Desktop Navigation */}
@@ -47,6 +52,17 @@ export default function Header() {
                                 className="text-gray-600 font-medium hover:text-blue-600 transition-colors relative group"
                             >
                                 Projects
+                                <span className="absolute -bottom-1 left-0 w-full h-0.5 bg-blue-600 transform scale-x-0 group-hover:scale-x-100 transition-transform"></span>
+                            </a>
+                        </li>
+                        <li>
+                            {/* Updated link to download the new resume file */}
+                            <a 
+                                href={resumePdfPath}
+                                download // This attribute prompts the browser to download the file instead of navigating to it
+                                className="text-gray-600 font-medium hover:text-blue-600 transition-colors relative group"
+                            >
+                                Resume
                                 <span className="absolute -bottom-1 left-0 w-full h-0.5 bg-blue-600 transform scale-x-0 group-hover:scale-x-100 transition-transform"></span>
                             </a>
                         </li>

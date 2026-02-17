@@ -1,5 +1,5 @@
-import profile from "../assets/profile.jpeg";
-import cv from "../assets/Kalaimani_L.pdf";
+import profile from "../assets/profile.jpeg"; // Update this with your actual image path
+import cv from "../assets/HARICHANDIRAN_CV.pdf"; // Update this with your actual PDF path
 
 export default function Hero() {
     return (
@@ -10,20 +10,17 @@ export default function Hero() {
                     <div className="space-y-6">
                         <div className="space-y-2">
                             <p className="text-blue-600 font-semibold text-lg">Hello, I'm</p>
-                            <h1 className="text-5xl md:text-6xl font-bold text-gray-900">
-                                Kalaimani L
+                            <h1 className="text-5xl md:text-6xl font-bold text-gray-900 times-new-roman-text">
+                                Harichandiran R
                             </h1>
-                            {/* <h2 className="text-3xl md:text-4xl font-semibold text-gray-600">
-                                Software Engineer & Electronics Enthusiast
-                            </h2> */}
-                            <p className="text-lg text-gray-500">
-                                 Software Engineer & VLSI Design Enthusiast
+                            <p className="text-lg text-gray-500 italic border-l-0">
+                                Senior BIM Modeler | Architecture & Structure
                             </p>
                         </div>
 
                         <p className="text-gray-600 text-lg leading-relaxed">
-                            Motivated Electronics and Communication Engineering graduate with a strong foundation in digital electronics, logic gates, RTL design, and verification using Verilog (Xilinx Vivado). Trained in full-stack development, I specialize in building scalable web applications using React, Tailwind CSS, Spring Boot, Java, and MySQL.
-                        </p>
+                            Experienced Senior BIM Modeler specializing in architectural and structural projects, with advanced expertise in high-quality 3D modeling, BIM coordination, and construction documentation. Proficient in Revit, AutoCAD, and Navisworks, delivering precise, constructible, and fully coordinated BIM solutions. Committed to ensuring model accuracy, clash-free integration, and efficient project execution from design through construction.
+                           </p>
 
                         <div className="flex flex-wrap gap-4 pt-4">
                             <a
@@ -47,20 +44,10 @@ export default function Hero() {
                             </a>
                         </div>
 
-                        {/* Social Links */}
+                        {/* Social Links - Update with Harichandiran's specific links if available */}
                         <div className="flex gap-4 pt-4">
                             <a
-                                href="https://github.com/Kalaimani14"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="w-10 h-10 flex items-center justify-center rounded-full bg-white border-2 border-gray-200 hover:border-blue-600 hover:text-blue-600 transition-colors"
-                            >
-                                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
-                                </svg>
-                            </a>
-                            <a
-                                href="mailto:kalaimani.lakshmanan14@gmail.com"
+                                href="mailto:your-email@example.com"
                                 className="w-10 h-10 flex items-center justify-center rounded-full bg-white border-2 border-gray-200 hover:border-blue-600 hover:text-blue-600 transition-colors"
                             >
                                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -68,7 +55,7 @@ export default function Hero() {
                                 </svg>
                             </a>
                             <a
-                                href="https://www.linkedin.com/in/kalaimani-l-60860536b"
+                                href="https://www.linkedin.com/in/harichandiran-r-a23a3027"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="w-10 h-10 flex items-center justify-center rounded-full bg-white border-2 border-gray-200 hover:border-blue-600 hover:text-blue-600 transition-colors"
@@ -78,45 +65,16 @@ export default function Hero() {
                                 </svg>
                             </a>
                         </div>
-
-                        {/* Awards Badge */}
-                        <div className="flex items-center gap-3 pt-4">
-                            <div className="flex items-center gap-2 px-4 py-2 bg-yellow-50 border border-yellow-200 rounded-lg">
-                                <svg className="w-5 h-5 text-yellow-600" fill="currentColor" viewBox="0 0 20 20">
-                                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                                </svg>
-                                <span className="text-sm font-medium text-yellow-800">Hackathon Winner</span>
-                                
-                            </div>
-                            <div className="flex items-center gap-2 px-4 py-2 bg-yellow-50 border border-yellow-200 rounded-lg">
-                                <svg className="w-5 h-5 text-yellow-600" fill="currentColor" viewBox="0 0 20 20">
-                                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                                </svg>
-                                
-                                <span className="text-sm font-medium text-yellow-800">Best Project Model</span>
-                            </div>
-                        </div>
-                       
                     </div>
 
-                    {/* Profile Image */}
-                    <div className="flex justify-center">
-                        <div className="relative">
-                            {/* Decorative background circle */}
-                            <div className="w-80 h-80 rounded-full bg-gradient-to-br from-blue-400 to-indigo-600 opacity-20 absolute -top-4 -left-4"></div>
-
-                            {/* Profile Image Container */}
-                            <div className="w-auto h-auto rounded-full relative overflow-hidden border-4 border-white shadow-2xl">
-                                <img
-                                    src={profile}
-                                    alt="Kalaimani L - Full Stack Developer"
-                                    className="w-full h-full object-cover "
-                                />
-                            </div>
+                    {/* Profile Image Column */}
+                    <div className="relative flex justify-center">
+                        <div className="w-64 h-64 md:w-90 md:h-100 rounded-full overflow-hidden border-4 border-black-600 shadow-2xl">
+                            <img src={profile} alt="Harichandiran R" className="w-full h-full object-cover" />
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-    )
+    );
 }

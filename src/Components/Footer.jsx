@@ -8,11 +8,11 @@ export default function Footer() {
                     {/* Brand */}
                     <div className="md:col-span-2">
                         <h3 className="text-2xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-indigo-400 bg-clip-text text-transparent">
-                            Kalaimani L
+                            Harichandiran R
                         </h3>
                         <p className="text-slate-400 mb-4">
-                            Full Stack Developer specializing in React, Spring Boot, and modern web technologies. 
-                            Building scalable applications with clean code and innovative solutions.
+                            Experienced Senior BIM Modeler specializing in architectural and structural projects, with advanced expertise in high-quality 3D modeling, BIM coordination, and construction documentation. Proficient in Revit, AutoCAD, and Navisworks, delivering precise, constructible, and fully coordinated BIM solutions. Committed to ensuring model accuracy, clash-free integration, and efficient project execution from design through construction.
+                        
                         </p>
                         <div className="flex justify-center items-center gap-2 text-slate-400">
                             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -40,19 +40,19 @@ export default function Footer() {
                         <h4 className="font-semibold mb-4">Connect</h4>
                         <ul className="space-y-2 mb-4">
                             <li className="text-center">
-                                <a href="mailto:kalaimani.lakshmanan14@gmail.com" className="text-slate-400 hover:text-white transition-colors text-sm">
-                                    kalaimani.lakshmanan14@gmail.com
+                                <a href="mailto:haribimengineer@gmail.com" className="text-slate-400 hover:text-white transition-colors text-sm">
+                                    haribimengineer@gmail.com
                                 </a>
                             </li>
                             <li>
-                                <a href="tel:+916380010292" className="text-slate-400 hover:text-white transition-colors text-sm">
-                                    +91 6380010292
+                                <a href="tel:+917397506234" className="text-slate-400 hover:text-white transition-colors text-sm">
+                                    +91 7397506234
                                 </a>
                             </li>
                         </ul>
                         <div className="flex gap-3 justify-center">
                             <a 
-                                href="https://github.com/Kalaimani14" 
+                                href="https://github.com/harichandiran3423" 
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors"
@@ -63,7 +63,7 @@ export default function Footer() {
                                 </svg>
                             </a>
                             <a 
-                                href="https://www.linkedin.com/in/kalaimani-l" 
+                                href="https://www.linkedin.com/in/harichandiran-r-a23a3027" 
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors"
@@ -74,7 +74,7 @@ export default function Footer() {
                                 </svg>
                             </a>
                             <a 
-                                href="mailto:kalaimani.lakshmanan14@gmail.com"
+                                href="mailto:haribimengineer@gmail.com"
                                 className="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors"
                                 aria-label="Email"
                             >
@@ -88,7 +88,7 @@ export default function Footer() {
 
                 <div className="border-t border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
                     <p className="text-slate-400 text-sm text-center md:text-left">
-                        &copy; {currentYear} Kalaimani L. All rights reserved.
+                        &copy; {currentYear} Harichandiran R. All rights reserved.
                     </p>
                     <p className="text-slate-400 text-sm text-center md:text-right">
                         Built with React & Tailwind CSS ❤️
